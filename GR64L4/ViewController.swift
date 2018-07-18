@@ -14,8 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-    
+    name()
     
     }
+    func name() {
+        let name = "Tima"
+        print("В этом имени \(name.count) символа")
+    }
+    
+    
+    
 }
 
