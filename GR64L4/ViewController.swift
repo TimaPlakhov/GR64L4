@@ -15,12 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     
 
-        name(name: "Timothy")
+        secondName(secondname: "Сергеевич")
         
     }
     
-    func name(name: String) {
-        print("В этом имени \(name.count) символа")
+    func secondName(secondname: String) {
+        if secondname.hasSuffix("ич") {
+            print("Данное отчество имеет префикс _ич_")
+        }
+        else {
+            print("Данное отчество не имеет префикс _ич_")
+        }
     }
+    
 }
 
