@@ -14,15 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-    name()
-    
+
+        name(name: "Plakhov")
+        
     }
-    func name() {
-        let name = "Tima"
+    
+    func name(name: String) {
         print("В этом имени \(name.count) символа")
     }
-    
-    
-    
 }
 
